@@ -1,0 +1,136 @@
+<div class="py-5 mx-auto" style="width: 90%;" id = "Product">
+    <h1 class="text-center my-5">Product</h1>
+    <!-- Nav Category -->
+    <div class="d-flex flex-column flex-lg-row justify-content-between mb-5">
+        <!-- Filter -->
+        <div>
+            <i class="fa-solid fa-filter btn btn-custom rounded-circle p-2" style="cursor: pointer;" ng-click = "resetFilter()"></i>
+            <div class="dropdown d-inline-block" id="brands">
+                <i class="fa-solid fa-tags btn btn-custom rounded-circle p-2 ms-3" style="cursor: pointer;"
+                    type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"></i>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" style="cursor: pointer;" ng-repeat="item in brands" ng-click = "clickAddFilter('brand', item); clicked = !clicked" ng-class="{'btn-custom-clicked': clicked}">{{item}}</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-inline-block" id="categories">
+                <i class="fa-solid fa-fan btn btn-custom rounded-circle p-2 ms-3" style="cursor: pointer;" type="button"
+                    data-bs-toggle="dropdown" data-bs-auto-close="outside"></i>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" style="cursor: pointer;" ng-repeat="item in categories" ng-click = "clickAddFilter('category', item); clicked = !clicked" ng-class="{'btn-custom-clicked': clicked}">{{item}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dropdown d-inline-block" id="colors">
+                <i class="fa-solid fa-palette btn btn-custom rounded-circle p-2 ms-3" style="cursor: pointer;"
+                    type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"></i>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" style="cursor: pointer;" ng-repeat="item in colors" ng-click = "clickAddFilter('color', item); clicked = !clicked" ng-class="{'btn-custom-clicked': clicked}">{{item}}</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-inline-block" id="price">
+                <i class="fa-solid fa-money-bill btn btn-custom rounded-circle p-2 ms-3" style="cursor: pointer;"
+                    type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"></i>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" style="cursor: pointer;" ng-repeat = "item in [['0 500000', 'Under 500.000đ'], ['500000 1000000', '500.000đ - 1.000.000đ'], ['1000000 5000000', '1.000.000đ - 5.000.000đ'], ['5000000 20000000', 'Above 5.000.000đ']]" ng-click = "clickAddFilter('price', item[0]); clicked = !clicked" ng-class="{'btn-custom-clicked': clicked}">{{item[1]}}</a></li>
+                </ul>
+            </div>
+            <div class="dropdown d-inline-block" id=ratings>
+                <i class="fa-solid fa-star btn btn-custom rounded-circle p-2 ms-3" style="cursor: pointer;"
+                    type="button" data-bs-toggle="dropdown" data-bs-auto-close="outside"></i>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" style="cursor: pointer;" ng-repeat="item in [3,4,5]" ng-click = "clickAddFilter('rating', item); clicked = !clicked" ng-class="{'btn-custom-clicked': clicked}">Above
+                            {{item}} Star</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- Filter -->
+
+        <!-- OrderBy -->
+        <div class="dropdown mt-4 mt-lg-0">
+            <button class="btn btn-custom dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Sort By
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('price', false)">Price: Ascend</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('price', true)">Price: Descend</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('name', false)">Name: A - Z</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('name', true)">Name: Z - A</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('rating', false)">Review: Ascend</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('rating', true)">Review: Descend</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('discount', false)">Discount: Ascend</a></li>
+                <li><a class="dropdown-item" style="cursor: pointer;" ng-click = "getOrderBy('discount', true)">Discount: Descend</a></li>
+            </ul>
+        </div>
+        <!-- OrderBy -->
+    </div>
+    <!-- Nav Category -->
+
+    <!-- Product list -->
+    <div class="row mt-5">
+        <div ng-hide = "(product | filter:myFilter).length" class = "d-flex">
+            <img src="./images/no-item-found-here.png" alt="" class = "w-50 mx-auto">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-12" ng-repeat="obj in product | filter: myFilter | orderBy:myOrderBy:reverseOrderBy">
+            <div class="mb-5" ng-show = "showItem($index)">
+                <div class="card" style="cursor: default;" data-bs-toggle="modal" data-bs-target="#product_{{obj.id}}">
+                    <img ng-src="{{obj.image}}" class="card-img-top" alt="..." style="height:350px;">
+                    <span class="position-absolute badge p-2 fs-6"
+                        style="background-color: var(--bs-indigo-dark); top: 2%; left: 5%;">-
+                        {{obj.discount}}%</span>
+                    <div class="card-body">
+                        <h5 class="card-title">{{obj.name}}</h5>
+                        <del class="text-secondary">{{obj.price/(100-obj.discount)*100 | currency: "": 0}}đ</del>
+                        <span class="ms-1 fw-bold">{{obj.price | currency: "": 0}}đ</span>
+                        <div class="ratings w-75">
+                            <div ng-bind-html="renderHtml(ratings[getIndex(obj)])"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="product_{{obj.id}}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header text-light" style="background-color: var(--page-color);"
+                                data-bs-theme="dark">
+                                <h1 class="modal-title fs-5 " id="exampleModalLabel"></h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" style="cursor: default;">
+                                <div class="row">
+                                    <div class="col-lg-6"><img ng-src="{{obj.image}}" alt="" class="w-100"
+                                            height="300"></div>
+                                    <div class="col-lg-6 my-auto">
+                                        <h4>{{obj.name}}</h4>
+                                        <h5>Details</h5>
+                                        <ul>
+                                            <li ng-repeat = "txt in obj.discriptions">{{txt}}</li>
+                                        </ul>
+                                        <span>Price: </span>
+                                        <b class="d-block">{{obj.price | currency: "": 0}}đ</b>
+                                        <div
+                                            class="d-flex justify-content-between w-50 mx-auto mt-2 mb-3 align-items-center fs-6">
+                                            <i class="fa-solid fa-minus" style="cursor: pointer;"
+                                                ng-click="changeValue($event)"></i>
+                                            <span class="badge px-3 py-2 value"
+                                                style="cursor: default; background-color: var(--bs-indigo);">0</span>
+                                            <i class="fa-solid fa-plus" style="cursor: pointer;"
+                                                ng-click="changeValue($event)"></i>
+                                        </div>
+                                        <button type="button" class="btn btn-custom w-100"
+                                            ng-click="changeValue($event, obj)">Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex w-100">
+            <button class = "btn btn-custom px-4 py-2  mx-auto" ng-click = "raiseIndex()">Show More</button>
+        </div>
+    </div>
+    <!-- Product list -->
+</div>

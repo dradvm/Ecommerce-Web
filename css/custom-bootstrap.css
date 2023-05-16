@@ -1,0 +1,61 @@
+:root {
+    --page-color: #53284f;
+    --bs-indigo-dark: #4800bd;
+}
+/* 
+header .nav-link:hover {
+    text-decoration: underline;
+    transition: .2s;   
+} */
+header .nav-link {
+    transition: .2s;
+}
+header .nav-link:hover {
+    color: #9f65fc !important; 
+    margin-top: -2px;
+} 
+footer .nav-link {
+    transition: .2s;
+    font-weight: 500;
+}
+footer .nav-link:hover {
+    margin-left: 4px;
+    color: #9f65fc !important; 
+    font-weight: 700;
+}
+.card {
+    transform: translateY(0px);
+    transition: .2s;
+}
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.dropdown-item:hover {
+    color: white !important;
+    background-color: var(--bs-indigo) !important;
+}
+
+.ratings{
+    margin-right:10px;
+}
+
+.ratings i{
+    
+    color:#cecece;
+    font-size:32px;
+}
+
+.rating-color{
+    color:#fbc634 !important;
+}
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+    transition: transform .4s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0s .4s;
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Limited Lifetime Motor Warranty",
+        "discriptions": "If any part of your fan motor fails, due to a defect in materials or workmanship during the lifetime of the original purchaser, Fanimation will provide the replacement part free of charge, when the defective fan is returned to our national service center. Proof of purchase is required. Customer shall be responsible for all costs incurred in removal or reinstallation and shipping of the product for repairs or replacement."
+    },
+    {
+        "id": 2,
+        "name": "One Year Motor Labor Warranty",
+        "discriptions": "If your fan motor fails at any time within one year from the original purchase, due to defects in materials or workmanship, labor to repair the motor will be provided free of charge at our national service center.  Purchaser will be responsible for labor charges after this one-year period. Customer shall be responsible for all costs incurred in the removal or reinstallation and shipping of the product for repairs or replacement."
+    },
+    {
+        "id": 3,
+        "name": "If any other part of your fan fails at any time within one year after original purchase",
+        "discriptions": "Due to defect in materials or workmanship, we will repair or replace, at our option, the defective part free of charge for parts and labor performed at our national service center."
+    },
+    {
+        "id": 4,
+        "name": "Because of varying climate conditions",
+        "discriptions": "This warranty does not cover changes in the finish, including rusting, pitting, corroding, tarnishing, or peeling."
+    },
+    {
+        "id": 5,
+        "name": "This warranty is void and does not apply to",
+        "discriptions": "Damage from improper installation, neglect, accident, misuse, exposure to extremes of heat or humidity, or as a result of any modification to the original product."
+    },
+    {
+        "id": 6,
+        "name": "All costs of removal and reinstallation of the fan",
+        "discriptions": "Are the sole responsibility of the owner of the fan and not the store that sold the fan or Fanimation."
+    },
+    {
+        "id": 7,
+        "name": "Fanimation reserves the right to modify or discontinue",
+        "discriptions": " Any product at any time and may substitute any part under this warranty."
+    },
+    {
+        "id": 8,
+        "name": "Under no circumstances may a fan be returned without prior authorization from Fanimation.",
+        "discriptions": "The receipt of purchase must accompany authorized returns and must be sent freight prepaid to Fanimation. The fan to be returned must be properly packed to avoid damage in transit; Fanimation will not be responsible for any damage resulting for improper packaging."
+    },
+    {
+        "id": 9,
+        "name": "A certain amount of wobble is normal",
+        "discriptions": "And should not be considered a problem or a defect."
+    },
+    {
+        "id": 10,
+        "name": "It is understood that any repair or replacement is the exclusive remedy available from Fanimation.",
+        "discriptions": "There is no other expressed or implied warranty. Fanimation hereby disclaims any and all implied warranties, including, but not limited to those of merchantability and fitness for a particular purpose to the extent permitted by law. Some states do not allow limitations or implied warranties. Fanimation will not be liable for incidental, consequential, or special damages arising out of or in conjunction with product use or performance, except as may otherwise be accorded by law. This warranty gives you special legal rights and you may also have other rights that vary from state to state."
+    }
+]

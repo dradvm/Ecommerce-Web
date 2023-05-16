@@ -1,0 +1,53 @@
+<div class="py-5" id = "FAQ" ng-init = "runDataHistory()" style="min-height: 300px;">
+    <h1 class="text-center mt-5">History List</h1>
+    <div class="row gx-0 mt-5 mx-auto" style="width: 90%;">
+        <div class="col-md-10 col-xs-12 mx-auto">
+            <div class="accordion accordion-flush m-auto" id="accordionHistory">
+                <div class="accordion-item" ng-repeat="obj in dataHistory">
+                    <h2 class="accordion-header" id="flush-heading{{$index}}">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse{{$index}}" aria-expanded="false"
+                            aria-controls="flush-collapse{{$index}}">
+                            <div class="row w-100">
+                                <div class="col-10">
+                                    <span class = "fw-bold">{{obj.customer[5]}}</span>
+                                </div>
+                                <div class="col-2 d-flex justify-content-end">
+                                    <span class = "fw-bold d-flex  me-5">{{getTotal(obj.orderProducts) | currency: "": 0}}đ</span>
+                                </div>
+                            </div>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse{{$index}}" class="accordion-collapse collapse"
+                        aria-labelledby="flush-heading{{$index}}" data-bs-parent="#accordionHistory">
+                        <div class="accordion-body px-0">
+                            <ul class="list-group">
+                                <li class="list-group-item" ng-repeat = "item in obj.orderProducts">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-1 col-2">
+                                            <img ng-src="{{item.image}}" alt="" width="50" height="50">
+                                        </div>
+                                        <div class="col-lg-5 col-5">
+                                            <span class = "fw-bold text-secondary-emphasis">{{item.name}}</span>
+                                        </div>
+                                        <div class="col-2 fw-bold d-none d-lg-flex justify-content-end">
+                                            {{item.price | currency: "": 0}}đ
+                                        </div>
+                                        <div class="col-1 d-none d-lg-flex">
+                                            x {{item.quantity}}
+                                        </div>
+                                        <div class="col-lg-2 col-5 fw-bold d-flex justify-content-end me-lg-4">
+                                            {{item.price * item.quantity| currency: "": 0}}đ
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

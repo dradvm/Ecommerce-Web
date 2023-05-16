@@ -1,0 +1,681 @@
+[
+    {
+        "id": 1,
+        "name": "Senko TR1683",
+        "price": 460000,
+        "brand": "Senko",
+        "color": "Blue",
+        "image": "./images/product/tr1683.jpg",
+        "category": "Wall",
+        "rating": 5,
+        "discount": 20,
+        "discriptions": [
+            "F20 - 16inches",
+            "Color: Ice Cream Nuggets, Cream Brown, Bronze Gray, Ice Cream Mon",
+            "Product line: Wall fan.",
+            "Wind speed: 3 speeds",
+            "Propeller: 3 blades",
+            "Redirect the electric motor.",
+            "8 hour timer.",
+            "Control by Remote",
+            "Adjust hours (natural wind, sleeping wind)"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Senko TC1622",
+        "price": 350000,
+        "brand": "Senko",
+        "color": "Orange",
+        "image": "./images/product/TC1622.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "PRODUCT LINE F23",
+            "Color: Black Orange, Dark Black, Cream Mon",
+            "Product Line: Wall Fan",
+            "Wind speed: 3 speeds",
+            "Propeller: 7 blades",
+            "Redirection of electric motor"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Senko TC1880",
+        "price": 398000,
+        "brand": "Senko",
+        "color": "Grey",
+        "image": "./images/product/tc1880.jpg",
+        "category": "Wall",
+        "rating": 5,
+        "discount": 20,
+        "discriptions": [
+            "PRODUCT LINE F25",
+            "Color: Black Orange, Cream Brown",
+            "Product line: Wall fan.",
+            "Wind speed: 3 speeds",
+            "Propeller: 5 blades",
+            "Redirect the electric motor."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Panasonic F-409MB",
+        "price": 1690000,
+        "brand": "Panasonic",
+        "color": "Blue",
+        "image": "./images/product/F-409MB.jpg",
+        "category": "Wall",
+        "rating": 2,
+        "discount": 20,
+        "discriptions": [
+            "Remote control",
+            "Reversing control",
+            "Easy to adjust the angle",
+            "Turn fan on/off and adjust between 3 speeds by electronic switch",
+            "Transparent plastic wings",
+            "Color: Blue or Gray"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Panasonic F-50YUZ",
+        "price": 2899000,
+        "brand": "Panasonic",
+        "color": "Black",
+        "image": "./images/product/F50YUZ.jpg",
+        "category": "Wall",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Fan diameter 50cm",
+            "Power 53~63W",
+            "Air flow 100m3/min",
+            "850 ~ 1230 rpm",
+            "Fan control by pull-wire switch"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Mitsubishi W16-RT",
+        "price": 1540000,
+        "brand": "Mitsubishi",
+        "color": "Grey",
+        "image": "./images/product/W16RT.jpg",
+        "category": "Wall",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Propeller diameter: 16 inches (40cm)",
+            "Electronically controlled buttons with 3 speeds.",
+            "OFF/ON timer 1-2-4-8 hours",
+            "Color: Green, Dark Gray",
+            "The fan operates with a capacity of 49W",
+            "3 wind speeds are light, natural and strong",
+            "Suitable for small spaces, bedrooms"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Mitsubishi W16-RA",
+        "price": 2190000,
+        "brand": "Mitsubishi",
+        "color": "Grey",
+        "image": "./images/product/W16RA.jpg",
+        "category": "Wall",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Has a remote",
+            "Shut down timer",
+            "Fan cage with small fan spokes"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Senko DTS1607",
+        "price": 499000,
+        "brand": "Senko",
+        "color": "Orange",
+        "image": "./images/product/dts1607.jpg",
+        "category": "Pedestal",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "PRODUCT LINE F23",
+            "Color: Black Orange, Black Safe",
+            "Wind speed: 3 speeds",
+            "Propeller: 7 blades",
+            "Mechanical navigation",
+            "Product height: 108 cm - 121 cm"      
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Senko DD1602",
+        "price": 450000,
+        "brand": "Senko",
+        "color": "Grey",
+        "image": "./images/product/dd1602.jpg",
+        "category": "Pedestal",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "F20 - 16inches",
+            "Color: Mon Cream, Brown Cream, Bronze Gray",
+            "Product Line: Standing Fan",
+            "Wind speed: 3 speeds",
+            "Propeller: 3 blades",
+            "Mechanical navigation",
+            "Product height: min 98cm / max 117cm"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Senko DCN 1806",
+        "price": 550000,
+        "brand": "Senko",
+        "color": "Orange",
+        "image": "./images/product/DCN1806.jpg",
+        "category": "Pedestal",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "PRODUCT LINE F25",
+            "Color: Black Orange, Black Safe",
+            "Product line: Standing fan.",
+            "Wind speed: 3 speeds",
+            "Propeller: 5 blades",
+            "Redirect muscle.",
+            "Product height: 113 cm - 124 cm"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Panasonic F-409K",
+        "price": 2550000,
+        "brand": "Panasonic",
+        "color": "Blue",
+        "image": "./images/product/F-409K.jpg",
+        "category": "Pedestal",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Outstanding Features",
+            "Wireless remote control comfortably adjust the speed",
+            "3 speeds and automatic on/off switch, convenient to use",
+            "Equipped with timer function to turn off time up to 4 hours",
+            "Sleep mode helps you have a good and deep sleep",
+            "The wingspan of 40cm helps the airflow to evenly distribute the room"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Panasonic F-CV339",
+        "price": 8600000,
+        "brand": "Panasonic",
+        "color": "White",
+        "image": "./images/product/FCV339.jpg",
+        "category": "Pedestal",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Feature:",
+            "Nanoe technology deodorizes - kills bacteria",
+            "8 wind modes",
+            "Night Mode",
+            "Temperature sensor",
+            "Remote control",
+            "Quiet, energy-saving DC motor"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Mitsubishi LV16-RA",
+        "price": 1929000,
+        "brand": "Mitsubishi",
+        "color": "Grey",
+        "image": "./images/product/LV16.jpg",
+        "category": "Pedestal",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Has a remote",
+            "Shut down timer",
+            "Fan cage with small fan spokes",
+            "Height adjustable"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Panasonic F60 TDN",
+        "price": 4130000,
+        "brand": "Panasonic",
+        "color": "White",
+        "image": "./images/product/F60TDN.jpg",
+        "category": "Ceiling",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Modern display screen",
+            "Smart remote control",
+            "Convenient timer feature",
+            "5 wings"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Panasonic F 56XPG",
+        "price": 2250000,
+        "brand": "Panasonic",
+        "color": "Black",
+        "image": "./images/product/F56XPG.jpg",
+        "category": "Ceiling",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "4 wings",
+            "Convenient timer feature",
+            "Smart remote control"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Panasonic F-70ZBP",
+        "price": 12399000,
+        "brand": "Panasonic",
+        "color": "Black",
+        "image": "./images/product/F70ZBP.jpg",
+        "category": "Ceiling",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "6 wings",
+            "Power saving DC motor",
+            "Natural wind function 1/f Yuragi",
+            "Smart remote control",
+            "Tie length 40cm"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Panasonic F-60DHN",
+        "price": 6450000,
+        "brand": "Panasonic",
+        "color": "Black",
+        "image": "./images/product/F60DHN.jpg",
+        "category": "Ceiling",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Wider airflow",
+            "Control by mobile application",
+            "Simple and trendy remote control",
+            "New generation DC motor technology",
+            "Natural wind technology 1/f Yuragi",
+            "Reversing function",
+            "Enhanced safety features",
+            "High-strength ABS-GF impeller"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Senko H100",
+        "price": 165000,
+        "brand": "Senko",
+        "color": "White",
+        "image": "./images/product/H100.jpg",
+        "category": "Exhaust",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Color: White",
+            "Product line: Wall Exhaust Fan",
+            "1 way (suction)",
+            "Wing diameter: 10 cm"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Senko H200",
+        "price": 280000,
+        "brand": "Senko",
+        "color": "White",
+        "image": "./images/product/H200.jpg",
+        "category": "Exhaust",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Color: White",
+            "Product Line: Exhaust Fan",
+            "2-way (Suction - Blow)"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Senko HT150",
+        "price": 250000,
+        "brand": "Senko",
+        "color": "White",
+        "image": "./images/product/HT150.jpg",
+        "category": "Exhaust",
+        "rating": 3,
+        "discount": 20,
+        "discriptions": [
+            "Color: White",
+            "Product line: Ceiling Exhaust Fan",
+            "1 way (ceiling suction)"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Senko HT200",
+        "price": 260000,
+        "brand": "Senko",
+        "color": "White",
+        "image": "./images/product/HT200.jpg",
+        "category": "Exhaust",
+        "rating": 3,
+        "discount": 30,
+        "discriptions": [
+            "Color: White",
+            "Product line: Ceiling Exhaust Fan",
+            "1 way (ceiling suction"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Senko TC1620",
+        "price": 2780000,
+        "brand": "Senko",
+        "color": "Blue",
+        "image": "./images/product/TC1620.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "PRODUCT LINE F23",
+            "Color: Ice Cream Nuggets, Kem Mon, Cream Brown, Bronze Gray",
+            "Product Line: Wall Fan",
+            "Wind speed: 3 speeds",
+            "Propeller: 7 blades",
+            "Redirection of electric motor"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Senko TC16",
+        "price": 3850000,
+        "brand": "Senko",
+        "color": "Black",
+        "image": "./images/product/tc16.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Color: Black Orange",
+            "Product line: Wall fan.",
+            "Wind speed: 3 speeds",
+            "Propeller: 5 blades",
+            "Redirect the electric motor"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Senko L1338",
+        "price": 3250000,
+        "brand": "Senko",
+        "color": "Blue",
+        "image": "./images/product/L1338.jpg",
+        "category": "Pedestal",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Color: Mon Cream, Brown Cream, Emerald Green, Bronze Gray, Com",
+            "Product Line: Missing Fan",
+            "Wind speed: 3 speeds",
+            "Propeller: 3 blades",
+            "Redirect muscle.",
+            "Product height: 77 cm - 95 cm"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Senko L1638",
+        "price": 3660000,
+        "brand": "Senko",
+        "color": "Blue",
+        "image": "./images/product/L1638.jpg",
+        "category": "Pedestal",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Color: Ice Cream Nuggets, Kem Mon, Cream Brown, Bronze Gray, Emerald Green",
+            "Product Line: Missing Fan",
+            "Wind speed: 3 speeds",
+            "Propeller: 3 blades",
+            "Redirect muscle.",
+            "Product height: 77 cm - 95 cm"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Panasonic F-56MZG",
+        "price": 3170000,
+        "brand": "Panasonic",
+        "color": "White",
+        "image": "./images/product/F-56MZG.jpg",
+        "category": "Ceiling",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Salient features:",
+            "Remote Control",
+            "Propeller diameter 140cm",
+            "Tie length 40cm",
+            "Equipped with seat belt. Motor overload protection",
+            "Large capacity, quiet operation"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Mitsubishi R30A-DV",
+        "price": 7480000,
+        "brand": "Mitsubishi",
+        "color": "Blue",
+        "image": "./images/product/R30A-DV.png",
+        "category": "Pedestal",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Super energy efficient DC motor",
+            "Air flow 24m³/min",
+            "5 operating levels",
+            "Wind Island 3D",
+            "Natural wind mode",
+            "Sleep mode",
+            "Child Lock",
+            "Timer ON (2-4-6 hours)/OFF (1-2-4-6 hours)"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Mitsubishi LV16-RBA",
+        "price": 3700000,
+        "brand": "Mitsubishi",
+        "color": "Black",
+        "image": "./images/product/LV16-RBA.png",
+        "category": "Pedestal",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "16 inch (40cm) propeller diameter",
+            "Power 48W",
+            "Air flow 86m3/min",
+            "3 operating levels",
+            "Natural wind mode",
+            "Remote control",
+            "OFF timer (1-2-4-8 hours)",
+            "Adjustable height (121 - 140cm)"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Mitsubishi LV16-GA",
+        "price": 1990000,
+        "brand": "Mitsubishi",
+        "color": " Grey",
+        "image": "./images/product/LV16-GA.png",
+        "category": "Pedestal",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Air flow 75m3/min",
+            "3 operating levels",
+            "Natural wind mode",
+            "Not equipped with remote control"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Panasonic F-60TAN",
+        "price": 9600000,
+        "brand": "Panasonic",
+        "color": "Grey",
+        "image": "./images/product/F-60TAN.png",
+        "category": "Ceiling",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "More powerful DC motor, more power saving",
+            "ECONAVI function via temperature sensor",
+            "9 wind levels",
+            "Function to create natural wind (1/f Yuragi)",
+            "Wind mode according to circadian rhythms when sleeping",
+            "3D propeller design helps create stronger and quieter wind",
+            "Propeller made from PPG for high durability",
+            "Propeller mounted with disc and seat belt",
+            "Equipped with safety devices",
+            "Remote control with LCD screen",
+            "Sleep mode with On and Off timer feature",
+            "Wing diameter: 150cm",
+            "Tie length: 30cm"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Panasonic F‑60XDN",
+        "price": 8220000,
+        "brand": "Panasonic",
+        "color": "Black",
+        "image": "./images/product/F‑60XDN.jpg",
+        "category": "Ceiling",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Wing diameter 150cm",
+            "Ti length 28.8cm",
+            "Power saving DC motor, capacity 37W",
+            "03 levels of safety",
+            "Natural wind function 1/f Yuragi"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Panasonic F‑407WGO",
+        "price": 3240000,
+        "brand": "Panasonic",
+        "color": "Brown",
+        "image": "./images/product/F‑407WGO.jpg",
+        "category": "Pedestal",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Wing diameter: 40cm",
+            "Fan height: 134cm-157cm",
+            "Power 53.5W",
+            "Air flow 76m3/min",
+            "3 wind levels",
+            "Equipped with a night light"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Senko T1680",
+        "price": 425000,
+        "brand": "Senko",
+        "color": " Grey",
+        "image": "./images/product/T1680.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "The fan cage has a small fan capsule opening, human fingers cannot touch the fan blades.",
+            "The user cannot touch the live parts inside the fan",
+            "There is a fuse to protect against fire when the fan is braked, while the engine is operating.",
+            "Fan is stable enough (tilt 10 degrees without falling fan)",
+            "Switches, protective parts for wire connections are made of flame retardant materials. Enough heat resistance, safe to use.",
+            "The size of the mains conductor meets the standards of the International Electrotechnical Commission IEC60227-53"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Senko TC1686",
+        "price": 243600,
+        "brand": "Senko",
+        "color": "Blue",
+        "image": "./images/product/TC1686.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "The fan cage has a small fan capsule opening, human fingers cannot touch the fan blades.",
+            "The user cannot touch the live parts inside the fan",
+            "There is a fuse to protect against fire when the fan is braked, while the engine is operating.",
+            "Fan is stable enough (tilt 10 degrees without falling fan)",
+            "Switches, protective parts for wire connections are made of flame retardant materials. Enough heat resistance, safe to use.",
+            "The size of the mains conductor meets the standards of the International Electrotechnical Commission IEC60227-53"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Senko T1882",
+        "price": 480000,
+        "brand": "Senko",
+        "color": "Black",
+        "image": "./images/product/T1882.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "The fan cage has a small fan capsule opening, human fingers cannot touch the fan blades.",
+            "The user cannot touch the live parts inside the fan",
+            "There is a fuse to protect against fire when the fan is braked, while the engine is operating.",
+            "Fan is stable enough (tilt 10 degrees without falling fan)",
+            "Switches, protective parts for wire connections are made of flame retardant materials. Enough heat resistance, safe to use.",
+            "The size of the mains conductor meets the standards of the International Electrotechnical Commission IEC60227-53"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Senko TR1628",
+        "price": 332000,
+        "brand": "Senko",
+        "color": "White",
+        "image": "./images/product/TR1628.jpg",
+        "category": "Wall",
+        "rating": 4,
+        "discount": 20,
+        "discriptions": [
+            "Color: Emerald Green, Gray Bronze, Cream Brown, Kem Mon, Ice Cream Com",
+            "Product line: Wall fan.",
+            "Wind speed: 3 speeds",
+            "Propeller: 3 blades",
+            "Redirect the electric motor.",
+            "8 hour timer.",
+            "Control by Remote",
+            "Adjust hours (natural wind, sleeping wind)"
+        ]
+    }
+]

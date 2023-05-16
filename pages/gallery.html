@@ -1,0 +1,16 @@
+<div class="py-5 bg-secondary-subtle" id = "Gallery">
+    <h1 class="text-center mt-5">Gallery</h1>
+    <div class="row mx-auto mt-5" style="width: 90%;">
+        <div class="col-lg-4 col-md-6 col-xs-12 mb-4 mb-lg-0" ng-repeat = "index in [1,2,3,4,5,6,7,8,9]">
+            <img ng-src = "./images/gallery/pic{{index}}.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="pic{{index}}" height="200"  data-bs-toggle="modal" data-bs-target="#ModalPic{{index}}">
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="ModalPic{{index}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" ng-repeat = "index in [1,2,3,4,5,6,7,8,9]">
+    <div class="modal-dialog m-0 mw-100 h-100 d-flex justify-content-around align-items-center">
+        <div class="img-gallery" style="background: #333 url('./images/gallery/pic{{index}}.jpg') center no-repeat; 
+        background-size: cover;">
+            <h2>Picture {{index}}</h2>
+        </div>
+    </div>
+</div>

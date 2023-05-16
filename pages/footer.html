@@ -1,0 +1,55 @@
+<div class="d-flex justify-content-around bg-dark flex-column-reverse flex-lg-row py-5 py-lg-5" id="form-footer">
+    <div class="mapouter w-auto">
+        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=cusc&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.gachacute.com/">Gacha Cute</a></div>
+        <div class="d-flex mt-3 mt-lg-2 justify-content-center justify-content-lg-start">
+            <a href="" class="fs-3 text-light me-3"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="fs-3 text-light me-3"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="fs-3 text-light me-3"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="fs-3 text-light me-3"><i class="fa-brands fa-pinterest"></i></i></a>
+        </div>
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 100%;
+            }
+
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 200px;
+            }
+
+            .gmap_iframe {
+                height: 200px !important;
+            }
+        </style>
+    </div>
+    <div class="mw-25 text-center text-lg-start mb-5 mb-lg-0">
+        <a class="navbar-brand" href="#"><img src="./images/logo2.png" alt=""></a>
+        <div class="navbar-nav d-flex flex-column mt-2">
+            <a class="nav-link text-light" aria-current="page" href="#!">Home</a>
+            <a class="nav-link text-light" href="#About">About Us</a>
+            <a class="nav-link text-light" href="#Gallery">Gallery</a>
+            <a class="nav-link text-light" href="#Product">Product</a>
+            <a class="nav-link text-light" href="#Promotion">Promotion</a>
+            <a class="nav-link text-light" href="#FAQ">FAQ</a>
+            <a class="nav-link text-light" href="#Contact">Contact Us</a>
+            <a class="nav-link text-light" href="#!Sitemap">Sitemap</a>
+        </div>
+
+    </div>
+    <div class="mw-25 px-3 px-md-5 px-lg-0">
+        <h6 class="text-light mt-lg-4">Enter your email for news</h6>
+        <form class="form-floating mt-2 mb-5 mb-lg-0">
+            <input type="email" class="form-control" id="inputFooter" placeholder="name@example.com">
+            <label for="inputFooter">Email address</label>
+            <button class="btn btn-custom mt-3 d-flex justify-content-end" ng-click = "addEmailFooter()">Subscribe</button>
+        </form>
+    </div>
+</div>
